@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = (handleLogout) => {
+const Home = ({handleLogout}) => {
     return(
         <section className="home">
             <nav>

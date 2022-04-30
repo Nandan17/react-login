@@ -69,11 +69,11 @@ const authListener = () => {
     } else {
       setUser("");
     }
-  })
+  });
 }
 
 useEffect(() => {
-  authListener()
+  authListener();
 },[])
 
   return (
